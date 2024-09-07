@@ -3,22 +3,22 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER.split("+94762280384")
+global.owner = process.env.OWNER_NUMBER.split("94763214503")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
 global.email = 'sam@sec.live'
 global.github = 'https://github.com/prabathLK/PRABATH-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.devs = '+94762280384';
-global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
+global.devs = '94763214503';
+global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/94763214503
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
 module.exports = {
   OPENAI_API_KEY:process.env.OPENAI_API_KEY || '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',
   botname: process.env.BOT_NAME || 'PRABATH-MD',
   dl_limit: process.env.DL_SIZE || '300',
   art: process.env.AUTO_RESTART || 'true',
-  sudo: process.env.SUDO || '+94762280384',
+  sudo: process.env.SUDO || '94763214503',
   alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
   alivemsj: process.env.ALIVE_MSJ || '*POWERD BY PRABATH-MD* 🎊',
   ownername:process.env.OWNER_NAME || 'PRABATH',
